@@ -1,0 +1,12 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.6584605220991935 0.7385599013050058 0.14477227987842722 2.819636219670188
+  position -0.5504966598601618 3.2928388424983046 1.609863873366558
+}
+RectangleArena {
+}
