@@ -1,0 +1,156 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  position -2.0998305818879266 0 0
+}
+RectangleArena {
+}
+Robot {
+  children [
+    HingeJoint {
+      device [
+        RotationalMotor {
+        }
+      ]
+      endPoint Solid {
+        children [
+          HingeJoint {
+            device [
+              RotationalMotor {
+              }
+            ]
+            endPoint Solid {
+              children [
+                Shape {
+                  geometry Cylinder {
+                    height 0.5
+                    radius 0.1
+                  }
+                }
+              ]
+            }
+          }
+          Shape {
+            geometry Cylinder {
+              height 0.5
+              radius 0.1
+            }
+          }
+        ]
+        name "solid(2)"
+      }
+    }
+    HingeJoint {
+      device [
+        RotationalMotor {
+        }
+      ]
+      endPoint Solid {
+        children [
+          HingeJoint {
+            device [
+              RotationalMotor {
+              }
+            ]
+            endPoint Solid {
+              children [
+                Shape {
+                  geometry Cylinder {
+                    height 0.5
+                    radius 0.1
+                  }
+                }
+              ]
+            }
+          }
+          Shape {
+            geometry Cylinder {
+              height 0.5
+              radius 0.1
+            }
+          }
+        ]
+        name "solid(1)"
+      }
+    }
+    HingeJoint {
+      device [
+        RotationalMotor {
+        }
+      ]
+      endPoint Solid {
+        children [
+          HingeJoint {
+            device [
+              RotationalMotor {
+              }
+            ]
+            endPoint Solid {
+              children [
+                HingeJoint {
+                  device [
+                    RotationalMotor {
+                    }
+                  ]
+                  endPoint Solid {
+                    children [
+                      Shape {
+                        geometry Cylinder {
+                          height 0.5
+                          radius 0.1
+                        }
+                      }
+                    ]
+                  }
+                }
+                Shape {
+                  geometry Cylinder {
+                    height 0.5
+                    radius 0.1
+                  }
+                }
+              ]
+              name "solid(1)"
+            }
+          }
+          HingeJoint {
+            device [
+              RotationalMotor {
+              }
+            ]
+            endPoint Solid {
+              children [
+                Shape {
+                  geometry Cylinder {
+                    height 0.5
+                    radius 0.1
+                  }
+                }
+              ]
+            }
+          }
+          Shape {
+            geometry Cylinder {
+              height 0.5
+              radius 0.1
+            }
+          }
+        ]
+      }
+    }
+    Shape {
+      appearance Appearance {
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+}
+RectangleArena {
+  name "rectangle arena(1)"
+}
